@@ -6,11 +6,11 @@ import plotly.graph_objects as go
 import io # Para manejar la imagen en memoria para el PDF
 
 # Importar fpdf2 si quieres generar PDFs
-try:
-    from fpdf import FPDF
-except ImportError:
-    st.warning("La librería 'fpdf2' no está instalada. Para generar PDFs, por favor instala: pip install fpdf2")
-    FPDF = None # Set FPDF to None if not available
+#try:
+#    from fpdf import FPDF
+#except ImportError:
+#    st.warning("La librería 'fpdf2' no está instalada. Para generar PDFs, por favor instala: pip install fpdf2")
+#    FPDF = None # Set FPDF to None if not available
 
 st.set_page_config(layout="wide", page_title="Cálculo de Asentamientos en Cimentaciones Superficiales")
 
